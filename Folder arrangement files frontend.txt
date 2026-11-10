@@ -1,0 +1,23 @@
+skillstack-frontend/
+├── public/
+│   └── images/                 <-- Store static lesson icons / images here
+├── src/
+│   ├── assets/
+│   │   └── main.css            <-- Global styles & Tailwind/Bootstrap imports
+│   ├── components/
+│   │   ├── Navbar.vue          <-- Bottom navigation bar (4 tabs)
+│   │   └── CourseCard.vue      <-- Reusable card for catalog rendering
+│   ├── router/
+│   │   └── index.js            <-- Vue Router route mappings
+│   ├── services/
+│   │   └── api.js              <-- Native fetch() wrapper functions
+│   ├── views/
+│   │   ├── Dashboard.vue       <-- Screen 6: Catalog, Sort & Add to Cart[cite: 23]
+│   │   ├── CourseDetail.vue    <-- Screen 7: Syllabus & course breakdown
+│   │   ├── Checkout.vue        <-- Screen 8: Name/Phone Regex validation & Cart[cite: 24]
+│   │   └── Profile.vue         <-- Screen 9: User progress & account options
+│   ├── App.vue                 <-- Root component with router-view
+│   └── main.js                 <-- Vue instance entry point
+├── .gitignore
+├── package.json
+└── vite.config.js
